@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:columnCount="6"
+            android:rowCount="3"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+
+            android:id="@+id/consonantsGrid">
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con0"
+        android:text="B"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con1"
+        android:text="C"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con2"
+        android:text="D"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con3"
+        android:text="F"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con4"
+        android:text="G"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con5"
+        android:text="H"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con6"
+        android:text="J"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con7"
+        android:text="K"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con9"
+        android:text="M"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con11"
+        android:text="P"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con12"
+        android:text="Q"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con16"
+        android:text="V"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con17"
+        android:text="X"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con18"
+        android:text="Z"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con19"
+        android:text="W"
+        android:onClick="choose_letter"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#c71585"
+        android:background="@drawable/border_purple_2"
+        android:id="@+id/con20"
+        android:text="Y"
+        android:onClick="choose_letter"/>
+
+</GridLayout>

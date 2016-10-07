@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context="edu.scu.klnguyen.myapplication.ChooseLetterActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#c71585"
+        android:textStyle="bold"
+        android:text="Things"
+        android:id="@+id/tv1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/grid1"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv1"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                android:columnCount="12"
+                android:rowCount="2">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz0"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz1"/>
+
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz2"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz3"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz4"/>
+
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz5"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz6"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz7"/>
+
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz8"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz9"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz10"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz11"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz12"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz13"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz14"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz15"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz16"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz17"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz18"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz19"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz20"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz21"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz22"/>
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:id="@+id/puz23"/>
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#c71585"
+        android:layout_marginTop="5dp"
+        android:text="R S T L N E"
+        android:id="@+id/tv2"
+        android:layout_below="@+id/grid1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f79b2e"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Select three consonants and one vowel"
+        android:id="@+id/tv3"
+        android:layout_below="@+id/tv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/grid2"
+                android:layout_below="@+id/tv3"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:columnCount="6"
+                android:rowCount="1">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:textColor="#f79b2e"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@drawable/border_yellow"
+            android:text="B"
+            android:id="@+id/con0"
+            android:onClick="choose_1st_consonant"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:textColor="#f79b2e"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@drawable/border_yellow"
+            android:text="C"
+            android:id="@+id/con1"
+            android:onClick="choose_2nd_consonant"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:textColor="#f79b2e"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@drawable/border_yellow"
+            android:text="D"
+            android:id="@+id/con2"
+            android:onClick="choose_3th_consonant"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/con3"
+            android:onClick="choose_4th_consonant"/>
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:id="@+id/con4"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:textColor="#f79b2e"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@drawable/border_yellow"
+            android:text="A"
+            android:id="@+id/con5"
+            android:onClick="choose_vowel1"/>
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/grid2"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/yellow"
+        android:text="Submit"
+        android:id="@+id/tv4"
+        android:onClick="submit_letters"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="@drawable/yellow"
+        android:text="Exit"
+        android:id="@+id/tv5"
+        android:onClick="exit_app"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+

@@ -23,4 +23,4 @@ The following features are implemented:
 
 Here's a screencast of implemented user stories:
 
-[Screencast](https://www.youtu.be/JqsONnJk3ko/)
+[Screencast](https://youtu.be/JqsONnJk3ko/)

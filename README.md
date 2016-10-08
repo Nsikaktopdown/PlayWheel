@@ -2,8 +2,6 @@
 
 PlayWheel is an android app that allows user to play word puzzle game. This is a simulation of the Bonus Puzzle from the TV show “Wheel of Fortune”.
 
-By: Kim Nguyen - kimnguyen559@gmail.com
-
 ## User Stories
 
 The following functionality is completed:
